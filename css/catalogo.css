@@ -1,0 +1,46 @@
+/* css catalogo*/
+/*//////////////////////////////*/
+/* estilos menu lateral izquierdo */
+/*///////////////////////////////////*/
+
+nav ul{
+	list-style: none;
+}
+nav h3{
+	color: #329999;
+}
+div #lateral-i hr{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0px;
+}
+div #lateral-i a{
+	color: #58595B;
+}
+div #lateral-i a:hover{
+	color: #329999;
+	text-decoration: none;
+}
+/*/////////////////////////*/
+/* estilos del catalogo  	*/
+/*//////////////////////////*/
+div .caja-productos{
+	border: 1px solid #fff;
+	width: 87%;
+	height: 245px;
+}
+	div .caja-productos img{
+	width: 100%;
+	}
+	div .caja-productos:hover{
+		border: 1px solid #319999;
+	}
+
+div .efecto-catalogo{
+	background-color: rgba(171, 221, 219, 0.35);
+	width: 220px;
+	height: 255px;
+}
+div .caja{
+	border: 
+}
