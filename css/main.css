@@ -1,8 +1,9 @@
  /* css Jaguar */
 @font-face {
     font-family: "caladea";
-    src: url("fonts/Caladea-Bold.TTf") format("truetype");
+    src: url("../fonts/Caladea-Bold.TTf") format("truetype");
 }
+
 header{
 	text-align: center;
 	font-family:Arial;
@@ -105,7 +106,6 @@ div .producto h4 span{
 }
 
 div .caja{
-	
 	width: 220px;
 	height: 255px;
 }
@@ -189,12 +189,13 @@ footer{
 	background-color: #29807D;
 	width: 100%;
 	color: #E6E7E8;
-
+	padding: 1%
 }
 #pie{
 	width: 960px;
 	margin: 0px auto;
 	text-align: center;
+	font-family: caladea;
 
 }
 	footer img{
@@ -205,6 +206,7 @@ footer{
 		list-style-type: none;
 		text-align: left;
 		line-height: 2.5em;
+		font-family: arial;
 	}
 	footer a{
 		color: #E6E7E8;
@@ -217,5 +219,6 @@ footer{
 		text-align: left;
 		line-height:1.5em;
 		margin-bottom: 2em;
+		font-family: arial;
 	}
 
