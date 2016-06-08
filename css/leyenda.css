@@ -1,0 +1,15 @@
+.blog-title{
+	font-family: caladea;
+	color: #329999;
+	font-weight: bold;
+}
+.blog-description{
+	font-family: caladea;
+	color: #959898;
+}
+.blog-post {
+	font-family: caladea;
+	font-size: 13pt;
+	text-align: justify;
+	color: #58595B;
+}

@@ -1,0 +1,12 @@
+.jumbotron{
+	font-family: caladea;
+	background-color: #eee;
+	font-size: 16px;
+}
+.jumbotron h1{
+	font-family: caladea;
+	color: #329999; 
+}
+#cajon{
+	margin: 0px auto;
+}
