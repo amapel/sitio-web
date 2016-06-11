@@ -9,4 +9,21 @@
 }
 #cajon{
 	margin: 0px auto;
+	color:#58595B;
+	font-family: caladea;
+}
+#cajon h1{
+	color:#329999; 
+}
+#cajon p{
+	font-size: 15px;
+}
+#cajon img{
+	
+}
+#articulos h2{
+	font-family: caladea;
+	text-align: center;
+	color: #329999;
+	text-height: bold;
 }

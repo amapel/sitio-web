@@ -162,7 +162,7 @@ div #articulos .arti h3{
 }
 div #articulos .arti img{
 	height: 290px;
-	left: 0px;
+	right: 0px;
 }
 div #articulos .arti aside{
 	float: left;
