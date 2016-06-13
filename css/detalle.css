@@ -1,0 +1,39 @@
+@import url(nosotros.css);
+#foto{
+	margin: 0px auto;
+	text-align: center;
+
+}
+#info{
+	font-family: caladea;
+}
+#info span{
+	color: #329999;
+	font-family: caladea;
+	font-size: 2em;
+	font-weight: bold;
+}
+.borde{
+	border: 1px solid #eee;
+	width: 4em;
+	text-align: center;
+	padding: 1.5%;
+	margin: 1%;
+	display: inline-block;
+}
+ #carrito{
+	width: 50%;
+}
+.borde:hover{
+	border: 1px solid #329999;
+	color: #329999;
+}
+#iconos a{
+	color:#58595B;
+	padding: 1%;
+	margin: 1%;
+	margin-top:1.5%;
+}
+#iconos a:hover{
+	color: #329999;
+}
