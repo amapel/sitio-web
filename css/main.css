@@ -10,6 +10,28 @@ header{
 	color: #58595B;
 	padding: 1%;
 }
+/*///////////////////////////////////////////*/
+/* estilos de Cuenta menu superior derecho */
+/*///////////////////////////////////////////*/
+header ul{
+	list-style-type: none;
+	margin-right: 0px;
+}
+header ul li a{
+	color: #58595B;
+}
+header ul li a:hover{
+	text-decoration: none;
+	color: #329999;
+}
+header ul li ul{
+	background-color: #329999;
+	text-align: left;
+}
+/*///////////////////////////////////////*/
+/* estilos de menu bajo el logo   */
+/*////////////////////////////////*/
+
 	#barra ul{
 		padding-left: 0px;
 	}

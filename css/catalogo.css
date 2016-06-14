@@ -31,8 +31,11 @@ div .caja-productos{
 	color: #939598;
 	margin-top: 1em;
 }
-	div .caja-productos img{
-	width: 100%;
+	div .caja-productos{
+		width: 100%;
+	}
+	div .caja img{
+	height: 245px;
 	}
 	div .caja-productos:hover{
 		border: 1px solid #319999;

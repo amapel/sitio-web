@@ -6,12 +6,25 @@
 }
 #info{
 	font-family: caladea;
+	text-align: left;
 }
 #info span{
 	color: #329999;
 	font-family: caladea;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.titulo{
+	color: #329999;
 	font-size: 2em;
 	font-weight: bold;
+}
+.titulo a{
+	color: #eee;
+}
+.titulo a:hover{
+	color:#329999;
+	text-decoration: none;
 }
 .borde{
 	border: 1px solid #eee;
