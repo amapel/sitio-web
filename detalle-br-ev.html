@@ -5,14 +5,22 @@
     <title>Jaguar </title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
 
-    <link rel="stylesheet" href="css/catalogo.css">
     <link rel="stylesheet" href="css/main.css" />
-    
+    <link rel="stylesheet" href="css/easyzoom.css" />
+    <link rel="stylesheet" type="text/css" href="css/detalle.css">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     
+    <!-- Google Analytics tracking code -->
+    <script>/*
+        var _gaq=[['_setAccount','UA-2508361-9'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));*/
+    </script>
 
 </head>
 <body>
@@ -57,7 +65,7 @@
                             <a href="catalogo.html"><img src="img/arti-04.jpg"  class="col-md-8"class="img-responsive"></a>
                         </ul>
                     </li>
-                    <li><a href="promociones.html" class="scroll-link">Promociones</a>
+                   <li><a href="promociones.html" class="scroll-link">Promociones</a>
                         <ul class="row">
                             <ul class="col-md-4">
                                 <li><strong><h4 class="titulo">Arte & plata </h4></strong></li>
@@ -82,106 +90,66 @@
             </nav> <!--termina menu-->
            <hr>
             <nav id="barra"><!-- barra de navegacion-->
-                <h4>Catálogo de productos</h4>
+                 <h4>Catálogo de productos</h4>
                 <ul>
-                    <li>Inicio</li> >
-                    <li>Catálogo de productos</li> >
-                    <li>Pedidos Especiales</li>
+                    <li><a href="index.html">Inicio</a></li> >
+                    <li><a href="catalogo.html">Catálogo de productos</a></li> >
+                    <li><a href="brazaletes.html">Brazaletes</a></li> >
+                    <li>Calados</li>
                 </ul>
             </nav><!--fin narra de navegacion-->  
             <hr>     
-    </header>
+        </header>
 
-    <section id="catalogo">
-        <strong><h2>Pedidos Especiales</h2></strong>
-        <br>
-        <div class="row">
-            
-            <nav class="col-md-3" id="lateral-i"><!--menu lateral izquierdo-->
-                <a href="catalogo.html"><h3>Catálogo de productos</h3></a>
-               <hr>
-               <ul>
-                   <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Anillos
-                        <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse1" class="panel-collapse collapse">
-                            <li><a href="anillos.html">Fundidos</a></li>
-                            <li><a href="anillos.html">Calados</a></li>
-                            <li><a href="anillos.html">Solitarios</a></li>
-                        </ul>
-                    </li>
-                   <hr>
-                    <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Aretes
-                        <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse2" class="panel-collapse collapse">
-                            <li><a href="aretes.html">Arracadas</a></li>
-                            <li><a href="aretes.html">Calados</a></li>
-                            <li><a href="aretes.html">Cascabeles</a></li>
-                        </ul>
-                   <hr>
-                   <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Bezotes
-                        <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse3" class="panel-collapse collapse">
-                            <li><a href="bezotes.html">Modelados</a></li>
-                            <li><a href="bezotes.html">Calados</a></li>
-                            <li><a href="bezotes.html">Piedrería</a></li>
-                        </ul>
-                   <hr>
-                   <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Brazaletes
-                        <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse4" class="panel-collapse collapse">
-                            <li><a href="brazaletes.html">Calados</a></li>                        
-                            <li><a href="brazaletes.html">Malla</a></li>
-                        </ul>
-                   <hr>
-                   <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5">Pedidos especiales <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse5" class="panel-collapse collapse">
-                            <li><a href="especiales.html">Peinetas caladas</a></li>                        
-                            <li><a href="especiales.html">Cera perdida</a></li>
-                            
-                        </ul>
-                   <hr>
-                   <li><a href="promociones.html">Promociones  <i class="fa fa-gift"></i></a> </li> 
-               </ul>
-            </nav><!-- fin de menu lateral-->
-
-            <!-- inicia catalogo de pedidos especiales-->           
-          
-    <div class="col-md-6"> <h3 class="titulos">Cera perdida</h3> </div>
-
-           <div class="col-md-3 producto"><!--producto 4-->
-                <div class="caja">
-                    <img src="img/productos/br-c2.jpg">
-                    <div class="efecto">
-                        <a href="detalle-br-c2.html"><i class="fa fa-search"></i></a>
-                        <a href="detalle-br-c2.html"><i class="fa fa-heart"></i></a>
-                        
-                        <a href="detalle-br-c2.html" id="link">Detalles</a>
+        <section id="detalle">
+            <div class="row">
+                <div class="col-md-8" id="foto">
+                   
+                    <div class="easyzoom easyzoom--overlay">
+                        <a href="img/productos/br-m2.jpg">
+                            <img src="img/productos/br-m2.jpg" alt="" height="400" />
+                        </a>
                     </div>
                 </div>
+                <div class="col-md-4" id="info">
+                    <p class="titulo">Brazalete Veneciano<br> 
+                        <a href="detalle-br-m2.html"><i class="fa fa-arrow-circle-left"></i> </a>
+                        <a href="detalle-br-in.html"><i class="fa fa-arrow-circle-right"></i></a>
+                    </p>
+                    <h5> <del>$9 955.00</del>   <span> $8 995.00</span> </h5>
+                    <p>Modelo: BR-EV</p>
+                    <p>Modelo en existencia: <i class="fa fa-diamond"></i> <i class="fa fa-check"></i></p>
 
-                <br>
-                <p>Brazale fundido</p>
-                <hr>
-                <h6> <del>$11 455.00</del>   <span>$10 995.00</span> </h6>
+                    <hr>
+                    <p>Plata 9.25</p>
+                    <p>Ley Sterling</p>
+                    <p>Joya hecha en plata. Modelo de brazalete elaborado con eslabones venecianos </p>
+
+                    <hr>
+                    <div class="borde">1</div>
+                    <div class="borde" id="carrito">Agregar al Carrito <i class="fa fa-cart-plus"></i></div>
+                    <div class="borde"><i class="fa fa-heart-o"></i></div>
+                    
+                    <hr>
+                    <h5 id="iconos">Compartir: 
+                        <a href="#"><i class="fa fa-envelope-o"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </h5>    
+                    <p>Servicio al cliente: 5654 2780</p>
+                    
+                </div>
+                <div class="col-md-2"></div>
             </div>
-        </div> <!-- fin row de productos-->
-
-        <hr>
+            <hr>
+        </section>
         <div id="articulos" class="row">
             <strong> <h2>Artículos adicionales</h2> </strong>
             <div class="col-md-6 arti"> <!--articulo 1-->
                 <aside>
-                    <strong> <h3>Explora la <br> posibilidades</h3> </strong>
+                    <b> <h3>Explora la <br> posibilidades</h3> </b>
                     <hr>
                     <p><em>Diseños exclusivos de joyas</em></p>
                     <a href="especiales.html"> <b>Explora</b></a>
@@ -192,18 +160,18 @@
             </div>
             <div class="col-md-6 arti"> <!--articulo 2-->
                 <aside>
-                    <strong> <h3>La leyenda <br> del Jaguar</h3> </strong>
+                    <b> <h3>Historia de <br> la colección</h3> </b>
                     <hr>
-                    <p><em>Criatura del inframundo</em></p>
+                    <p><em>Dios Xólotl</em></p>
                     <a href="leyenda-jaguar.html"> <b>Explora</b></a>
                 </aside>
                 <aside>
-                    <img src="img/j.png" class="img-responsive">
+                    <img src="img/xolotl_1.jpg" class="img-responsive">
                 </aside>
             </div>
         </div>
-    </section>
-</div><!--cierra conteiner-->  
+       
+    </div><!--cierra conteiner-->  
     <br>
     <footer>
         <div id="pie" class="row">
@@ -222,7 +190,7 @@
                 <ul>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="circulo.html">Círculo Jaguar</a></li>
-                    <li><a href="#novedades" class="scroll-link">Promociones en tienda</a></li>
+                    <li><a href="promociones.html" class="scroll-link">Promociones en tienda</a></li>
                     <li><a href="aviso-privacidad.html">Aviso de Privacidad</a></li>
                 </ul>
             </div>
@@ -253,6 +221,39 @@
         <script src="js/jquery.spritely.js"></script>
         <script src="js/jquery-1.11.0.min.js"> </script>
         <script src="js/app.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="js/easyzoom.js"></script>
     
+    <script>//******sin este bloque de texto deja de funcionar el zoom*****
+        // Instantiate EasyZoom instances
+        var $easyzoom = $('.easyzoom').easyZoom();
+
+        // Setup thumbnails example
+        var api1 = $easyzoom.filter('.easyzoom--with-thumbnails').data('easyZoom');
+
+        $('.thumbnails').on('click', 'a', function(e) {
+            var $this = $(this);
+
+            e.preventDefault();
+
+            // Use EasyZoom's `swap` method
+            api1.swap($this.data('standard'), $this.attr('href'));
+        });
+
+        // Setup toggles example
+        var api2 = $easyzoom.filter('.easyzoom--with-toggle').data('easyZoom');
+
+        $('.toggle').on('click', function() {
+            var $this = $(this);
+
+            if ($this.data("active") === true) {
+                $this.text("Switch on").data("active", false);
+                api2.teardown();
+            } else {
+                $this.text("Switch off").data("active", true);
+                api2._init();
+            }
+        });
+    </script>
     </body>
 </html>
