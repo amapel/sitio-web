@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="css/catalogo.css">
     <link rel="stylesheet" href="css/main.css" />
-    
+    <link rel="stylesheet" type="text/css" href="css/contacto.css">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -80,127 +80,74 @@
                     </li>
                 </ul>
             </nav> <!--termina menu-->
-           <hr>
-            <nav id="barra"><!-- barra de navegacion-->
-                <h4>Catálogo de productos</h4>
-                <ul>
-                    <li>Inicio</li> >
-                    <li>Catálogo de productos</li>
-                </ul>
-            </nav><!--fin narra de navegacion-->  
-            <hr>     
-    </header>
+           <hr> 
+        </header>
 
-    <section id="catalogo">
-        <h2>Catálogo de productos</h2>
-        <br>
-        <div class="row">
-            
-            <nav class="col-md-3" id="lateral-i"><!--menu lateral izquierdo-->
-               <a href="catalogo.html"><h3>Catálogo de productos</h3></a>
-               <hr>
-               <ul>
-                   <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Anillos
-                        <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse1" class="panel-collapse collapse">
-                            <li><a href="anillos.html">Fundidos</a></li>
-                            <li><a href="anillos.html">Calados</a></li>
-                            <li><a href="anillos.html">Solitarios</a></li>
-                        </ul>
-                    </li>
-                   <hr>
-                    <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Aretes
-                        <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse2" class="panel-collapse collapse">
-                            <li><a href="aretes.html">Arracadas</a></li>
-                            <li><a href="aretes.html">Calados</a></li>
-                            <li><a href="aretes.html">Cascabeles</a></li>
-                        </ul>
-                   <hr>
-                   <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Bezotes
-                        <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse3" class="panel-collapse collapse">
-                            <li><a href="bezotes.html">Modelados</a></li>
-                            <li><a href="bezotes.html">Calados</a></li>
-                            <li><a href="bezotes.html">Piedrería</a></li>
-                        </ul>
-                   <hr>
-                   <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Brazaletes
-                        <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse4" class="panel-collapse collapse">
-                            <li><a href="brazaletes.html">Calados</a></li>                        
-                            <li><a href="brazaletes.html">Malla</a></li>
-                        </ul>
-                   <hr>
-                   <li>
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5">Pedidos especiales <i class="fa fa-angle-down"></i></a>
-                    </li>  
-                        <ul id="collapse5" class="panel-collapse collapse">
-                            <li><a href="especiales.html">Peinetas caladas</a></li>                        
-                            <li><a href="especiales.html">Cera perdida</a></li>
+        <section id="registro">
+            <h2>Crea una cuenta en Jaguar</h2>
+            <p><em>Atención al cliente en 5654 2780</em></p>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-2"></div>                
+                <div class="col-md-8" >
+                    <form action="#" method="get">
+                        <ul>
+                            <h2 >Registro</h2>
+                            <li class="marg"><label for="name">Nombre &nbsp; </label> 
+                            <input class="regIn" type=" text" name="nombre" required /></li>    
+
+                            <li class="marg"><label for="name">Apellido &nbsp; </label> 
+                            <input class="regIn" type=" text" name="nombre" required /></li>    
+
+                            <li> <label for="email">Email &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </label> 
+                            <input class="regIn" id="email1"  type="email" name="email1" placeholder="Correo electronico" required onkeyup="validaemail()"/></li>
+
+                            <li> <label  for="date">Sexo (optativo) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label> 
+                            <input type="radio" name="sexo" value="h" required /> Hombre   &nbsp; &nbsp; &nbsp; <input  type="radio" name="sexo" value="m" required /> Mujer</li> 
+                            
+                            <li><label for="date">Cumpleaños (Optativo) </label>
+                            <select class="selec" type="mes" name="mes">
+                                    <option value="enero">Enero</option>
+                                    <option value="enero">Febrero</option>
+                                    <option value="enero">Marzo</option>
+                            </select>
+                            <select class="selec" type="dia" name="dia" >
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                            </select>
+
+                            </li>
+                            
+                            <li> <label for="password">Password:&nbsp;</label> 
+                            <input class="regIn" id="passw1" type="password" name="password1" size="15" maxlength="20" required onkeyup="validarpass1()" onkeyup="validarpass2()"/>
+
+                            <li> <label for="repass">Confirma Password:&nbsp;</label> 
+                            <input class="regIn" id="passw2"  type="password" name="password2"  size="15" maxlength="20" required onkeyup="validarpass1()" onkeyup="validarpass2()"/></li>
+
+                            <li><input type="checkbox" name="acepto">
+                                <label for="acepto">Al marcar esta casilla, doy mi consentimiento y acepto lo siguiente: </label>
+                                <div id="consentimiento"><p>Al proporcionar la informacion de arriba, acepto que Jaguar y sus respectivos asociados, identificados en www.joyariajaguar.com pueden procesar mi nombre, apellido y demas datos proporcionados </p></div>
+                            </li>  
                             
                         </ul>
-                   <hr>
-                   <li><a href="promociones.html">Promociones  <i class="fa fa-gift"></i></a> </li> 
-               </ul>
-            </nav><!-- fin de menu lateral-->
-
-            <!-- inicia catalogo de productos-->
-            <div class="col-md-9 producto"><!--producto 1-->
-                <div class="caja-productos">
-                    <a href="anillos.html"><img src="img/catalogo/catalogo-05.jpg"></a>
+                        <div class="boton1" type="submit" value="cuenta">Crear cuenta</div>
+                    </form>
                     
-                </div>
-                <br><hr>             
-            </div>    
-            <div class="col-md-9 producto"><!--producto 1-->
-                <div class="caja-productos">
-                    <a href="aretes.html"><img src="img/catalogo/catalogo-06.jpg"></a>
-                    
-                </div>
-                <br><hr>             
-            </div>  
-            <div class="col-md-8 producto"><!--producto 1-->
-                <div class="caja-productos">
-                    <a href="bezotes.html"><img src="img/catalogo/catalogo-07.jpg"></a>
-                    
-                </div>
-                <br><hr>             
-            </div>  
-            <div class="col-md-4 producto"><!--producto 1-->
-                <div class="caja-productos">
-                    <a href="especiales.html"><img src="img/catalogo/catalogo-09.jpg"></a>
-                    
-                </div>
-                <br>             
+                </div>                
+                <div class="col-md-2"></div>                
             </div>
-                
-            <div class="col-md-8 producto"><!--producto 1-->
-                <div class="caja-productos">
-                    <a href="brazaletes.html"><img src="img/catalogo/catalogo-08.jpg"></a>
-                    
-                </div>
-                          
-            </div>                   
-        </div> <!-- fin row de productos-->
+            <hr>
 
-        <hr>
         <div id="articulos" class="row">
-             <h2>Artículos adicionales</h2>
+            <strong> <h2>Artículos adicionales</h2> </strong>
             <div class="col-md-6 arti"> <!--articulo 1-->
                 <aside>
-                    <strong> <h3>Explora la <br> posibilidades</h3> </strong>
+                    <b> <h3>Explora la <br> posibilidades</h3> </b>
                     <hr>
                     <p><em>Diseños exclusivos de joyas</em></p>
-                    <a href="especiales.html"> Explora</a>
+                    <a href="especiales.html"> <b>Explora</b></a>
                 </aside>
                 <aside>
                     <img src="img/modelo.jpg" class="img-responsive">
@@ -218,8 +165,8 @@
                 </aside>
             </div>
         </div>
-    </section>
-</div><!--cierra conteiner-->  
+       
+    </div><!--cierra conteiner-->  
     <br>
     <footer>
         <div id="pie" class="row">
@@ -238,7 +185,7 @@
                 <ul>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="circulo.html">Círculo Jaguar</a></li>
-                    <li><a href="#novedades" class="scroll-link">Promociones en tienda</a></li>
+                    <li><a href="promociones.html">Promociones en tienda</a></li>
                     <li><a href="aviso-privacidad.html">Aviso de Privacidad</a></li>
                 </ul>
             </div>

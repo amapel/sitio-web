@@ -1,14 +1,37 @@
  /* css Jaguar */
 @font-face {
     font-family: "caladea";
-    src: url("fonts/Caladea-Bold.TTf") format("truetype");
+    src: url("../fonts/Caladea-Regular.TTf") format("truetype");
 }
+
 header{
 	text-align: center;
 	font-family:Arial;
 	color: #58595B;
 	padding: 1%;
 }
+/*///////////////////////////////////////////*/
+/* estilos de Cuenta menu superior derecho */
+/*///////////////////////////////////////////*/
+header ul{
+	list-style-type: none;
+	margin-right: 0px;
+}
+header ul li a{
+	color: #58595B;
+}
+header ul li a:hover{
+	text-decoration: none;
+	color: #329999;
+}
+header ul li ul{
+	background-color: #329999;
+	text-align: left;
+}
+/*///////////////////////////////////////*/
+/* estilos de menu bajo el logo   */
+/*////////////////////////////////*/
+
 	#barra ul{
 		padding-left: 0px;
 	}
@@ -105,7 +128,6 @@ div .producto h4 span{
 }
 
 div .caja{
-	
 	width: 220px;
 	height: 255px;
 }
@@ -162,7 +184,7 @@ div #articulos .arti h3{
 }
 div #articulos .arti img{
 	height: 290px;
-	left: 0px;
+	right: 0px;
 }
 div #articulos .arti aside{
 	float: left;
@@ -189,12 +211,13 @@ footer{
 	background-color: #29807D;
 	width: 100%;
 	color: #E6E7E8;
-
+	padding: 1%
 }
 #pie{
 	width: 960px;
 	margin: 0px auto;
 	text-align: center;
+	font-family: caladea;
 
 }
 	footer img{
@@ -205,6 +228,7 @@ footer{
 		list-style-type: none;
 		text-align: left;
 		line-height: 2.5em;
+		font-family: arial;
 	}
 	footer a{
 		color: #E6E7E8;
@@ -217,5 +241,6 @@ footer{
 		text-align: left;
 		line-height:1.5em;
 		margin-bottom: 2em;
+		font-family: arial;
 	}
 

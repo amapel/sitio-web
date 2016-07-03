@@ -1,0 +1,53 @@
+#login{
+	color: #fff;
+	background-color: #329999;
+	height: 250px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px #eee;
+	font-family: caladea;
+}
+#registro{
+	font-family: caladea;
+}
+#registro h2{
+	text-align: left;
+}
+#registro ul{
+	list-style-type: none;
+}
+#registro ul li{
+	padding:1.5%;
+	font-weight: normal;
+}
+.boton{
+	border:1px solid #eee;
+	color: #eee;
+	text-align: center;
+	padding: 2%;
+	border-radius: 8px;
+	right: 10px;
+	position: absolute;
+	top: 180px;
+}
+.boton:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+.boton1{
+	border:1px solid #eee;
+	background-color: #329999;
+	color: #eee;
+	text-align: center;
+	padding: 2%;
+	border-radius: 8px;
+	width: 50%;
+}
+.boton1:hover{
+	background-color: rgba(171, 221, 219, 0.1);
+	color: #329999;
+	border: 1px solid #329999;
+}
+#consentimiento{
+	width: 300px;
+	height: 150px;
+
+}

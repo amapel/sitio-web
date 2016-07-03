@@ -28,8 +28,14 @@ div .caja-productos{
 	border: 1px solid #fff;
 	width: 87%;
 	height: 245px;
+	color: #939598;
+	margin-top: 1em;
 }
 	div .caja-productos img{
+		width: 100%;
+	}
+	div .caja img{
+	height: 245px;
 	width: 100%;
 	}
 	div .caja-productos:hover{
@@ -41,6 +47,17 @@ div .efecto-catalogo{
 	width: 220px;
 	height: 255px;
 }
-div .caja{
-	border: 
+.titulos{
+	font-family: caladea;
+	color: #939598;
+}
+div .producto hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div .producto span{
+	color: #329999;
+}
+div .producto p{
+	font-size: 12px;
 }
