@@ -1,4 +1,6 @@
  /* css Jaguar */
+@import'responsivo.css';
+
 @font-face {
     font-family: "caladea";
     src: url("../fonts/Caladea-Regular.TTf") format("truetype");
@@ -9,6 +11,17 @@ header{
 	font-family:Arial;
 	color: #58595B;
 	padding: 1%;
+}
+/*///////////////////////////////////*/
+/*	estilos para el boton de menu    */
+/*/////////////////////////////////////*/
+
+.navbar-toggle{
+		border-color: #ccc !important; /*color para el boton*/
+		background-color: #eee !important;
+	}
+.icon-bar{
+	background-color: #ccc;
 }
 /*///////////////////////////////////////////*/
 /* estilos de Cuenta menu superior derecho */
@@ -39,6 +52,7 @@ header ul li ul{
 		padding-right: 0px;
 		margin: 0px;
 	}
+
 	header i {
 		color: #329999;
 	}

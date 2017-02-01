@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-
+<!-- página jaguar-->
 <html>
 <head>
     <title>Jaguar </title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
+        
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
     <link rel="stylesheet" href="css/animaciones.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
@@ -31,10 +31,22 @@
         </ul><!-- fin menu superior derecho-->
     
             <hr>
-            <a href="index.html"><img src="img/logo.png" ></a>
-            <nav> <!--inicia menu-->
-                <ul>
-                    <li ><a href="index.html">Inicio</a> 
+            <a href="index.html"><img src="img/logo.png" id="logo" ></a>
+
+            <nav class="navbar"> <!--inicia menu-->
+                <div class="container-fluid">
+                    <div class="navbar-header" id="nav"> <!--boton para dispositivos moviles-->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                <ul >
+                    <li>
+                        <a href="index.html">Inicio <span class="caret"></span></a> 
                         <ul class="row">
                             <ul class="col-md-4">
                                 <li><strong><h4 class="titulo">Arte & plata </h4></strong></li>
@@ -54,7 +66,7 @@
                                 <li><a href="brazaletes.html">Brazaletes</a></li>
                                 <li><a href="especiales.html">Pedidos Especiales</a></li>
                             </ul>
-                            <ul class="col-md-1"></ul>
+                            
                             <a href="catalogo.html"><img src="img/arti-04.jpg"  class="col-md-8"class="img-responsive"></a>
                         </ul>
                     </li>
@@ -75,11 +87,13 @@
                                 <li><a href="contacto.html">Visitanos</a></li>
                                 <li><a href="historia.html">Conoce nuestra historia</a></li>
                             </ul>
-                            <ul class="col-md-1"></ul>
+                            
                             <a href="contacto.html"><img src="img/arti-05.jpg"  class="col-md-8" class="img-responsive"></a>
                         </ul>
                     </li>
                 </ul>
+                </div><!--/.nav-collapse -->
+            </div> <!--/.container-fluid -->
             </nav> <!--termina menu-->
             <hr>
         </header>
@@ -142,19 +156,19 @@
 
             <div class="col-md-3 producto"><!--producto 2-->
                 <div class="caja">
-                    <img src="img/productos/2.jpg">
+                    <img src="img/productos/br-c1.jpg">
                     <div class="efecto">
-                        <a href="detalle.html"><i class="fa fa-search"></i></a>
-                        <a href="detalle.html"><i class="fa fa-heart"></i></a>
+                        <a href="detalle-br-c1.html"><i class="fa fa-search"></i></a>
+                        <a href="detalle-br-c1.html"><i class="fa fa-heart"></i></a>
                         
-                        <a href="detalle.html" id="link">Detalles</a>
+                        <a href="detalle-br-c1.html" id="link">Detalles</a>
                     </div>
                 </div>
 
                 <br>
-                <p>Arete de plata con perla</p>
+                <p>Brazalete Calado</p>
                 <hr>
-                <h4> <del>$7 153.00</del>   <span>  $4 599.00</span> </h4>
+                <h4> <del>$17 153.00</del>   <span>  $14 599.00</span> </h4>
             </div>
             <div class="col-md-3 producto"><!--producto 3-->
                 <div class="caja">
@@ -168,25 +182,25 @@
                 </div>
 
                 <br>
-                <p>Arete de plata con perla</p>
+                <p>Arete de plata con piedra</p>
                 <hr>
                 <h4> <del>$2 895.00</del>  <span>$1 059.00</span> </h4>
             </div>
             <div class="col-md-3 producto"><!--producto 4-->
                 <div class="caja">
-                    <img src="img/productos/4.jpg">
+                    <img src="img/productos/an-c1.jpg">
                     <div class="efecto">
-                        <a href="detalle.html"><i class="fa fa-search"></i></a>
-                        <a href="detalle.html"><i class="fa fa-heart"></i></a>
+                        <a href="detalle-an-c1.html"><i class="fa fa-search"></i></a>
+                        <a href="detalle-an-c1.html"><i class="fa fa-heart"></i></a>
                         
-                        <a href="detalle.html" id="link">Detalles</a>
+                        <a href="detalle-an-c1.html" id="link">Detalles</a>
                     </div>
                 </div>
 
                 <br>
-                <p>Arete con piedras</p>
+                <p>Anillo calado</p>
                 <hr>
-                <h4> <del>$11 455.00</del>  <span>$9 695.00</span> </h4>
+                <h4> <del>$5 455.00</del>  <span>$4 695.00</span> </h4>
             </div>          
         </div> <!-- fin row de productos-->
         <hr>
@@ -227,7 +241,7 @@
                 <img src="img/logo-gris.png">
                 <br>
                 <p>Inicia su historia con <br> un grupo de mujeres que <br>elaboran  joyería...</p>
-                <p> <a href="historia.html">conoce más de nustra historia...</a></p>
+                <p> <a href="nosotros.html">conoce más de nustra historia...</a></p>
             </div>
             <div class="col-md-3"> 
                 <h4>Empresa</h4>
